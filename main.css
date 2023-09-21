@@ -72,12 +72,7 @@ header {
     margin: auto;
  }
  
- .img-fondo{
-     height: 38%;
-     object-fit: cover;
-     z-index: 1;
-     
- }
+ 
  #box-content{
      opacity: 0%;
      transition-duration: 1s;
@@ -102,9 +97,6 @@ header {
     width: 100%;
     padding:    60px 100px 280px 100px ;
     align-items: center;
-    background-image: url(img/se1fon-01.png);
-    background-position: bottom;
-    background-size: cover;
 }
  .ti{
     width: 50%;
@@ -112,24 +104,20 @@ header {
     padding: 4px;
     font-size: 19px;
     margin-bottom: 50px;
-
 }
+
 .ti img{
     width: 100%;
-
  }
  .ti img:hover {
     transform: scale(1.1);
     transition: 0.4s;
     translate:  0.4s;
-      
-   
  }
  .uti{
     color: #123081 ;
     margin-top: 100px;
  }
-
  .se2{
     width: 100%;
     padding:        100px 100px 6px 100px ;
@@ -157,9 +145,7 @@ video{
     width: 100%;
     padding:    0px 100px 180px 100px ;
     align-items: center;
-    background-image: url(img/se3fon-01.png);
-    background-position: top;
-    background-size: cover;
+   
 }
 
 
@@ -171,6 +157,19 @@ video{
     margin-bottom: 50px;
 
 }
+.s1{
+    background-image: url(img/se1fon-01.png);
+    background-position: bottom;
+    background-size: cover;
+}
+.s2{
+    background-color: #123081;
+}
+.s3{
+    background-image: url(img/se3fon-01.png);
+    background-position: top;
+    background-size: cover;
+}
 .tii img{
     width: 80%;
 
@@ -179,8 +178,6 @@ video{
     transform: scale(1.1);
     transition: 0.4s;
     translate:  0.4s;
-      
-   
  }
 
  .tiii{
@@ -220,8 +217,6 @@ video{
     transform: scale(1.1);
     transition: 0.4s;
     translate:  0.4s;
-      
-   
  }
  .no{
     font-size: 60px;
@@ -233,19 +228,18 @@ video{
     width: 100%;
     padding: 100px 0;
     background-color: #051923;
-
  }
-
-
-
+ .img-fondo{
+    display: none;
+ }
+ @media screen and (max-width: 1350px){
+    .img-fondo{
+        display: block;
+     }
+ }
  @media screen and (max-width: 1250px){
     .color{
-      
         background-image:none;
-        
-        
-        
-        
      }
  }
 
@@ -254,7 +248,7 @@ video{
 
 
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 770px) {
     .abrir-menu,
     .cerrar-menu {
         display: block;
