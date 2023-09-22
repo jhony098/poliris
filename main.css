@@ -275,6 +275,15 @@ video{
         display: none;
     
     }
+    .se1{
+        padding:    60px 10px 280px 10px ;
+    }
+    .se2{
+        padding:    60px 10px 10px 10px ;
+    }
+    .se3{
+        padding:    30px 10px 280px 10px ;
+    }
     .tiiii{
         display: block;
         
@@ -293,7 +302,18 @@ video{
     
       
       
-    
+    .tii{
+        padding-top: 20px;
+        margin-bottom: 0px;
+    }
+    .tiii{
+        padding-top: 20px;
+        margin-bottom: 0px;
+    }
+    .tiiii{
+        padding-top: 20px;
+        margin-bottom: 0px;
+    }
 
     .nav {
         opacity: 0;
@@ -317,7 +337,15 @@ video{
         z-index: 30;
         position: fixed;
     }
-    
+    .tii img{
+        width: 100%;
+     }
+     .tiii img{
+        width: 100%;
+     }
+     .tiiii img{
+        width: 100%;
+     }
     .nav-list {
         flex-direction: column;
         text-align: center;
